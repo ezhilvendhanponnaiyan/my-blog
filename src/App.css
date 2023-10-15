@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('/assets/pexels-photo-1167355.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.nav-link {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0px 10px;
+}
+.nav-link.active {
+  color: blue !important;
+}
+
+.homepage {
+  margin-top: 100px;
+}
+.card img {
+  border-radius: 20px;
+}
+.user {
+  gap: 10px;
+}
+
+.user img {
+  clip-path: circle();
+  width: 50px;
+  height: 70px;
+}
+.icons {
+  font-size: 18px;
+}
+.icons i:hover {
+  color: blue;
+  cursor: pointer;
+}
